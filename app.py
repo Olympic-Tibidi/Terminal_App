@@ -42,9 +42,9 @@ import dataframe_image as dfi
 
 
 @st.cache(allow_output_mutation=True)
-    def persistdata():
-        d=detentions
-        return d
+def persistdata():
+    d=detentions
+    return d
 
 st.set_page_config(layout='wide')
 
