@@ -634,7 +634,7 @@ if page=="Enter Detention":
             st.write(""" Detentions are shown in units of moves. Based on an average of 25 moves an hour. E.g : A 0.6 detention in crane costs 0.6*25=15 Moves for that hour.     """)
 
             detensions_df=detentions_df.astype(str)
-            c=pd.DataFrame.from_dict(st.session_state.detentions[gang]))
+            c=pd.DataFrame.from_dict(st.session_state.detentions[gang])
             st.write(c.astype(str))
             st.write(detentions_df)
 if page=="Shift Analytics":
